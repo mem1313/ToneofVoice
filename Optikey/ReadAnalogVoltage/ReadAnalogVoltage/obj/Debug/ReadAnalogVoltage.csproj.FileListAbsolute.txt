@@ -1,0 +1,6 @@
+c:\users\ys\documents\visual studio 2015\Projects\ReadAnalogVoltage\ReadAnalogVoltage\bin\Debug\ReadAnalogVoltage.exe.config
+c:\users\ys\documents\visual studio 2015\Projects\ReadAnalogVoltage\ReadAnalogVoltage\obj\Debug\ReadAnalogVoltage.csprojResolveAssemblyReference.cache
+c:\users\ys\documents\visual studio 2015\Projects\ReadAnalogVoltage\ReadAnalogVoltage\bin\Debug\ReadAnalogVoltage.exe
+c:\users\ys\documents\visual studio 2015\Projects\ReadAnalogVoltage\ReadAnalogVoltage\bin\Debug\ReadAnalogVoltage.pdb
+c:\users\ys\documents\visual studio 2015\Projects\ReadAnalogVoltage\ReadAnalogVoltage\obj\Debug\ReadAnalogVoltage.exe
+c:\users\ys\documents\visual studio 2015\Projects\ReadAnalogVoltage\ReadAnalogVoltage\obj\Debug\ReadAnalogVoltage.pdb
