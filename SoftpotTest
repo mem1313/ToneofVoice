@@ -1,0 +1,49 @@
+
+unsigned int Average = 0;
+int ADCreadings[50];
+
+void setup(){
+
+  Serial.begin(9600);
+  for(int x=0; x<50; x++)
+  {
+    ADCreadings[x]=analogRead(A0);
+    delay(16);
+  }
+}
+int k = 0;
+void loop(){
+  
+  int sensorValue = analogRead(A0);
+  
+  delay(16);
+  
+  ADCreadings[k]=sensorValue;
+  findaverage();
+  
+  k++;
+  
+  if(k==50)
+    k=0;
+  
+  Serial.print("Sensor:\t");
+  Serial.print(sensorValue);
+  Serial.print("\tAverage:\t");
+  Serial.print(Average);
+
+  if (Average >= 0 && Average < 300)
+  Serial.println("\tHAPPY\t");
+  else if (Average >= 300 && Average < 600)
+  Serial.println("\tSAD\t");
+  else Serial.println("\tMAD\t");
+
+}
+
+void findaverage(){
+  Average=0;
+  for(int x=0; x<50; x++)
+  {
+    Average += ADCreadings[x];
+  }
+  Average = (Average/50);
+}
