@@ -3,7 +3,7 @@ unsigned int Average = 0;
 unsigned int first = 0;
 unsigned int last = 0;
 int ADCreadings[50];
-
+int timer
 void setup(){
 
   Serial.begin(9600);
