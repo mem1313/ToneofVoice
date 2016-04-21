@@ -97,19 +97,19 @@ void loop()
     if (twitch == 0)
     {
       Serial.println("ArduinoSensor\tNORMAL");
-      delay(50);
+      delay(250);
     }
 
     else if (twitch == 1)
     {
       Serial.println("ArduinoSensor\tHAPPY");
-      delay(50);
+      delay(250);
     }
 
     else if (twitch == 2)
     {
       Serial.println("ArduinoSensor\tSAD");
-      delay(50);
+      delay(250);
     }
 
   }
